@@ -1,0 +1,9 @@
+<h1>These are the gOt Characters</h1>
+
+<% @characters.each do |character| %>
+  <h3><%= character.name %></h3>
+  <p><%= character.house %></p>
+  <p><%= character.city %></p>
+  <p><%= character.quote%></p>
+  <p><%= character.dragon%></p>
+<% end %>
